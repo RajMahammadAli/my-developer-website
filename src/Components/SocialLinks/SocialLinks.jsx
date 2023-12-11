@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { ImProfile } from "react-icons/im";
+
 export default function () {
   const links = [
     {
@@ -50,7 +51,7 @@ export default function () {
           </span>
         </>
       ),
-      href: "",
+      href: "/resume.pdf",
       download: true,
       style: "rounded-br-md",
     },
