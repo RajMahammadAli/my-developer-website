@@ -6,6 +6,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Banner from "./Components/Banner/Banner";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Experience from "./Components/Experience/Experience";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +18,8 @@ function App() {
       <Banner></Banner>
       <AboutMe></AboutMe>
       <Portfolio></Portfolio>
+      <Experience></Experience>
+      <Contact></Contact>
     </>
   );
 }
