@@ -8,7 +8,7 @@ export default function ({ portfolio }) {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-          <p className="border text-sm">{description}</p>
+          <p className="text-sm">{description}</p>
           <div className="card-actions justify-center">
             <a href={href} target="_blank" className="btn btn-primary">
               Demo

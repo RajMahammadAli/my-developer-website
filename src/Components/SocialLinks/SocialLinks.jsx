@@ -59,7 +59,7 @@ export default function () {
     <>
       <div>
         <div>
-          <ul className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+          <ul className="hidden lg:flex flex-col top-[35%] left-0 fixed z-10">
             {links.map((link) => (
               <li
                 key={link.id}
