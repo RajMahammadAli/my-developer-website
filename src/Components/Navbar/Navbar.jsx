@@ -20,7 +20,7 @@ export default function () {
   );
   return (
     <>
-      <div className="navbar bg-base-100 border">
+      <div className="navbar bg-base-100 border fixed z-10">
         <div className="container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">

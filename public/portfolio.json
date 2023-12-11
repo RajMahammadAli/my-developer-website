@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "https://i.ibb.co/MpRtMHW/FoodApp.png",
+    "title": "Food App",
+    "description": "A showcase of my skills in building dynamic web applications using React.js.",
+    "href": "https://65142e7f8d9e3b201e58418c--magenta-taffy-10676c.netlify.app/"
+  },
+  {
+    "id": 2,
+    "thumbnail": "https://i.ibb.co/p4rbbkH/QuizApp.png",
+    "title": "Quiz App",
+    "description": "Explore the seamless integration of design and functionality in this React.js-powered project.",
+    "href": "https://65142e7f8d9e3b201e58418c--magenta-taffy-10676c.netlify.app/"
+  },
+  {
+    "id": 3,
+    "thumbnail": "https://i.ibb.co/ZhSY16m/Summer-Sale.png",
+    "title": "Summer Sale",
+    "description": "Dive into my portfolio, a testament to my expertise in creating captivating digital experiences.",
+    "href": "https://65142e7f8d9e3b201e58418c--magenta-taffy-10676c.netlify.app/"
+  }
+]
