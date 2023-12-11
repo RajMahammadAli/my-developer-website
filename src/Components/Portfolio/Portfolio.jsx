@@ -16,7 +16,7 @@ export default function () {
   }, []);
   return (
     <>
-      <div>
+      <div name="portfolio">
         <div className="container mx-auto p-6">
           <div className="w-full min-h-screen flex justify-center items-center ">
             <div>

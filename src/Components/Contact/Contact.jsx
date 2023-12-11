@@ -1,64 +1,48 @@
 export default function () {
   return (
     <>
-      <div>
+      <div name="contact">
         <div>
-          <div>
-            <div className="container mx-auto p-6">
-              <div className="w-full min-h-screen flex justify-center items-center ">
-                <div className="w-full text-center md:text-left">
-                  <h1 className="text-3xl font-bold border-b-4 border-black inline ">
-                    Contact
-                  </h1>
-                  <div className="flex justify-center items-center">
-                    <div className="card w-3/4 p-8 mt-8 shadow-2xl bg-base-100">
-                      <form className="card-body">
-                        <div className="w-3/4 block md:flex gap-4 mx-auto ">
-                          <div className="form-control w-1/2">
-                            <label className="label">
-                              <span className="label-text">Name</span>
-                            </label>
-                            <input
-                              type="text"
-                              placeholder="Enter Your Name"
-                              className="input input-bordered focus:outline-none"
-                              required
-                            />
-                          </div>
-                          <div className="form-control w-1/2">
-                            <label className="label">
-                              <span className="label-text">Email</span>
-                            </label>
-                            <input
-                              type="email"
-                              placeholder="email"
-                              className="input input-bordered focus:outline-none"
-                              required
-                            />
-                          </div>
-                        </div>
-                        <div className="form-control w-3/4 mx-auto">
-                          <label className="label">
-                            <span className="label-text">Message</span>
-                          </label>
-                          <textarea
-                            type="text"
-                            placeholder="Write Your Message"
-                            rows="5"
-                            cols={50}
-                            className="border focus:outline-none"
-                            required
-                          />
-                        </div>
-
-                        <div className="form-control mt-6  w-full flex items-center">
-                          <button className="btn btn-primary w-1/2">
-                            submit
-                          </button>
-                        </div>
-                      </form>
+          <div className="container mx-auto p-8">
+            <div className="w-full min-h-screen flex justify-center items-center ">
+              <div className="w-full text-center md:text-left">
+                <h1 className="text-3xl font-bold border-b-4 border-black inline ">
+                  Contact
+                </h1>
+                <div className="mt-8 flex justify-center items-center">
+                  <form
+                    action="https://getform.io/f/137c5fa5-8624-47c9-b19f-34515b34f76c"
+                    method="POST"
+                    className="md:flex flex-col w-full md:w-1/2"
+                  >
+                    <div className="mb-4 md:flex justify-between gap-2">
+                      <input
+                        className="w-full md:w-1/2 p-2 border focus:outline-none rounded-sm"
+                        type="text"
+                        name="name"
+                        placeholder="Enter Your Name"
+                      />
+                      <input
+                        className="w-full my-4 md:my-0 p-2 md:w-1/2 border focus:outline-none rounded-sm"
+                        type="email"
+                        name="email"
+                        placeholder="Enter Your Email"
+                      />
                     </div>
-                  </div>
+                    <textarea
+                      className="w-full border focus:outline-none rounded-sm p-2"
+                      type="text"
+                      name="message"
+                      rows="5"
+                      placeholder="Enter Your Message"
+                    />
+                    <button
+                      className="mt-4 border p-2 bg-primary text-white rounded-lg"
+                      type="submit"
+                    >
+                      Send
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>

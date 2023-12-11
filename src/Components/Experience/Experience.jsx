@@ -16,9 +16,9 @@ export default function () {
   }, []);
   return (
     <>
-      <div>
+      <div name="experience">
         <div>
-          <div className="container mx-auto p-6">
+          <div className="container mx-auto p-8">
             <div className="w-full min-h-screen flex justify-center items-center ">
               <div className="w-full text-center md:text-left">
                 <h1 className="text-3xl font-bold border-b-4 border-black inline ">

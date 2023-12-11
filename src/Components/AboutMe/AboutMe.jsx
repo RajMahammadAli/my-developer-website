@@ -1,7 +1,7 @@
 export default function () {
   return (
     <>
-      <div className="w-full ">
+      <div name="about" className="w-full ">
         <div className="container mx-auto ">
           <div className="flex justify-center items-center min-h-screen">
             <div className="p-8">

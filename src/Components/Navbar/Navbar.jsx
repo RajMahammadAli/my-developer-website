@@ -1,20 +1,31 @@
+import { Link } from "react-scroll";
 export default function () {
   const navlinks = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="home" smooth={true}>
+          <a>Home</a>
+        </Link>
       </li>
       <li>
-        <a>About</a>
+        <Link to="about" smooth={true}>
+          <a>About</a>
+        </Link>
       </li>
       <li>
-        <a>Portfolio</a>
+        <Link to="portfolio" smooth={true}>
+          <a>Portfolio</a>
+        </Link>
       </li>
       <li>
-        <a>Experience</a>
+        <Link to="experience" smooth={true}>
+          <a>Experience</a>
+        </Link>
       </li>
       <li>
-        <a>Contact</a>
+        <Link to="contact" smooth={true}>
+          <a>Contact</a>
+        </Link>
       </li>
     </>
   );

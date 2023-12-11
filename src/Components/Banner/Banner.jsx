@@ -1,8 +1,10 @@
 import profile from "../../assets/profile.png";
+import { Link } from "react-scroll";
+import { FaLongArrowAltRight } from "react-icons/fa";
 export default function () {
   return (
     <>
-      <div className="w-full min-h-screen">
+      <div name="home" className="w-full min-h-screen">
         <div className="container mx-auto">
           <div className="flex justify-center items-center min-h-screen">
             <div>
@@ -24,8 +26,17 @@ export default function () {
                       hosting, with MongoDB handling data storage.
                     </p>
                     <div className="flex justify-center lg:justify-start">
-                      <button className="btn btn-primary text-center">
-                        My Portfolio
+                      <button className="btn btn-primary group">
+                        <Link
+                          className="flex gap-2"
+                          to="portfolio"
+                          smooth={true}
+                        >
+                          My PortFolio
+                          <span className="group-hover:rotate-90 duration-300">
+                            <FaLongArrowAltRight />
+                          </span>
+                        </Link>
                       </button>
                     </div>
                   </div>
