@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Experience from "./Components/Experience/Experience";
 import Contact from "./Components/Contact/Contact";
 import SocialLinks from "./Components/SocialLinks/SocialLinks";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
       <Portfolio></Portfolio>
       <Experience></Experience>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

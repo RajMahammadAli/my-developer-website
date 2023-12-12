@@ -5,7 +5,7 @@ export default function () {
         <div>
           <div className="container mx-auto p-8">
             <div className="w-full min-h-screen flex justify-center items-center ">
-              <div className="w-full text-center md:text-left">
+              <div className="w-full text-center ">
                 <h1 className="text-3xl font-bold border-b-4 border-black inline ">
                   Contact
                 </h1>
